@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Account Temp" max_length="40" name="x_451559_payment_w_account_temp" type="collection">
+        <element attributes="import_attribute_name=Account Balance" label="Account Balance" max_length="40" name="u_account_balance" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Account Holder Name" label="Account Holder Name" max_length="40" name="u_account_holder_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Account Number" label="Account Number" max_length="40" name="u_account_number" type="string"/>
+        <element attributes="import_attribute_name=Contact Number" label="Contact Number" max_length="40" name="u_contact_number" type="float"/>
+    </element>
+</database>

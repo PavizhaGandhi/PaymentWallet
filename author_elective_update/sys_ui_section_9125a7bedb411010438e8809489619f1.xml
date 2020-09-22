@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Macro Testing" section_id="9125a7bedb411010438e8809489619f1" sys_domain="global" table="x_451559_payment_w_account" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-03 12:54:48</sys_created_on>
+            <sys_id>dff75babdb899010438e8809489619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Macro Testing" display_value="Macro Testing" name="x_451559_payment_w_account" sys_domain="global" view="Default view">9125a7bedb411010438e8809489619f1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-03 12:54:48</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_451559_payment_w_popup_macro.xml</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-03 12:54:48</sys_created_on>
+            <sys_id>57f75babdb899010438e8809489619cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="PopupMacroFormatter">88471b6bdb899010438e880948961998</sys_ui_formatter>
+            <sys_ui_section caption="Macro Testing" display_value="Macro Testing" name="x_451559_payment_w_account" sys_domain="global" view="Default view">9125a7bedb411010438e8809489619f1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-03 12:54:48</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Macro Testing</caption>
+            <header>false</header>
+            <name>x_451559_payment_w_account</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-01 05:56:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9125a7bedb411010438e8809489619f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Macro Testing</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Payment Wallet" source="x_451559_payment_w">97f7e1b6db301010438e880948961972</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Payment Wallet">97f7e1b6db301010438e880948961972</sys_scope>
+            <sys_update_name>sys_ui_section_9125a7bedb411010438e8809489619f1</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-01 05:56:50</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Payment Wallet">97f7e1b6db301010438e880948961972</application>
+        <file_path/>
+        <instance_id>25e52d8cdbd353c4536ad5b0cf9619c9</instance_id>
+        <instance_name>dev63961</instance_name>
+        <name>sys_ui_section_9125a7bedb411010438e8809489619f1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Macro Testing" section_id="9125a7bedb411010438e8809489619f1" sys_domain="global" table="x_451559_payment_w_account" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-03 12:54:48</sys_created_on><sys_id>dff75babdb899010438e8809489619ca</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Macro Testing" display_value="Macro Testing" name="x_451559_payment_w_account" sys_domain="global" view="Default view">9125a7bedb411010438e8809489619f1</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-03 12:54:48</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>x_451559_payment_w_popup_macro.xml</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-03 12:54:48</sys_created_on><sys_id>57f75babdb899010438e8809489619cb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="PopupMacroFormatter">88471b6bdb899010438e880948961998</sys_ui_formatter><sys_ui_section caption="Macro Testing" display_value="Macro Testing" name="x_451559_payment_w_account" sys_domain="global" view="Default view">9125a7bedb411010438e8809489619f1</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-03 12:54:48</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Macro Testing</caption><header>false</header><name>x_451559_payment_w_account</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-01 05:56:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9125a7bedb411010438e8809489619f1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Macro Testing</sys_name><sys_overrides/><sys_package display_value="Payment Wallet" source="x_451559_payment_w">97f7e1b6db301010438e880948961972</sys_package><sys_policy/><sys_scope display_value="Payment Wallet">97f7e1b6db301010438e880948961972</sys_scope><sys_update_name>sys_ui_section_9125a7bedb411010438e8809489619f1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-01 05:56:50</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1120593623</payload_hash>
+        <record_name>Account</record_name>
+        <reverted_from/>
+        <source>53f7adb6db301010438e880948961963</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-03 12:54:48</sys_created_on>
+        <sys_id>13f75babdb899010438e8809489619cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1727a3f9d9e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-03 12:54:48</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>9bf75baba589901014a1336f8621d2cc</update_guid>
+        <update_guid_history>9bf75baba589901014a1336f8621d2cc:-1120593623,24e66b326281101007b8b92680022e47:-491107729,00756f7e794110104f4a39137dc3b448:242983549</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-05 12:23:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>115b678619684e3382098bd113fc8641</sys_id>
+        <sys_metadata>9125a7bedb411010438e8809489619f1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Macro Testing</sys_name>
+        <sys_package display_value="Payment Wallet" source="x_451559_payment_w">97f7e1b6db301010438e880948961972</sys_package>
+        <sys_parent display_value="Account">60dfee47db301010438e88094896190e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Payment Wallet">97f7e1b6db301010438e880948961972</sys_scope>
+        <sys_scope_delete display_value="">059fa2be573941e68e90a8580f8cfdd9</sys_scope_delete>
+        <sys_update_name>sys_ui_section_9125a7bedb411010438e8809489619f1</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_9125a7bedb411010438e8809489619f1">13f75babdb899010438e8809489619cd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-05 12:23:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

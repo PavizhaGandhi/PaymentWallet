@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Transaction</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Transaction</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">c1d58797db220010438e8809489619a8</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-20 10:42:09</sys_created_on>
+        <sys_id>e3537a4bdb301010438e88094896194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Transaction</sys_name>
+        <sys_package display_value="Payment Wallet" source="x_451559_payment_w">97f7e1b6db301010438e880948961972</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Payment Wallet">97f7e1b6db301010438e880948961972</sys_scope>
+        <sys_update_name>sys_wizard_answer_e3537a4bdb301010438e88094896194e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-20 10:42:09</sys_updated_on>
+        <table/>
+        <target_url>x_451559_payment_w_transaction.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

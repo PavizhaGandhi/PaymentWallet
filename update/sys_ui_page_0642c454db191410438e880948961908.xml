@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function onClickFunction()
+{
+	var value=gel('g_contact_number').value;
+	
+	if(value == "" || value == null)
+	{
+		alert("please enter contact number");
+		return false;
+	}
+	g_form.setValue('contact_number',value);
+	
+	GlideDialogWindow.get().destroy();
+	
+}
+
+]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_451559_payment_w_testing_page.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+	<g:ui_form>
+	<g:evaluate var='jvar_contact_number' expression="RP.getWindowProperties().get('contact_number')" />
+		
+	<table>
+		<tr >
+			<td colspan='2'>
+			<g:ui_input_field id='g_contact_number' name='g_contact_number' label='Enter Contact Number :' value='${jvar_contact_number}'/>
+			</td>
+		</tr>
+		
+		<tr>
+			<td colspan='2'>
+				<g:dialog_buttons_ok_cancel ok="return onClickFunction()" ok_type="button" cancel_type="button" />
+			</td>
+		</tr>
+	</table>
+	</g:ui_form>
+	
+</j:jelly>]]></html>
+        <name>testing_page</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-05 05:25:35</sys_created_on>
+        <sys_id>0642c454db191410438e880948961908</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>testing_page</sys_name>
+        <sys_package display_value="Payment Wallet" source="x_451559_payment_w">97f7e1b6db301010438e880948961972</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Payment Wallet">97f7e1b6db301010438e880948961972</sys_scope>
+        <sys_update_name>sys_ui_page_0642c454db191410438e880948961908</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-05 08:49:27</sys_updated_on>
+    </sys_ui_page>
+</record_update>

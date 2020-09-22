@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Account" max_length="40" name="x_451559_payment_w_account" sizeclass="6" type="collection">
+        <element label="Account balance" max_length="15" name="account_balance" type="currency"/>
+        <element label="Account Holder Name" max_length="30" name="account_holder_name" type="string"/>
+        <element label="Account Number" max_length="15" name="account_number" type="integer"/>
+        <element label="Contact Number" max_length="10" name="contact_number" read_only="true" type="string"/>
+        <element label="Current Address" max_length="100" name="current_address" type="string"/>
+        <element label="Permanent Address Same As Cuurent Address" max_length="40" name="padd_same_as_cadd" type="boolean"/>
+        <element label="Permanent Address" max_length="100" name="permanent_address" type="string"/>
+    </element>
+</database>

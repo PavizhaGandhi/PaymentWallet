@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description>A macro to display a button</description>
+        <media_type/>
+        <name>sample_macro</name>
+        <scoped_name>x_451559_payment_w_sample_macro</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-22 07:17:44</sys_created_on>
+        <sys_id>4107d0fbdb301010438e88094896191d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>sample_macro</sys_name>
+        <sys_package display_value="Payment Wallet" source="x_451559_payment_w">97f7e1b6db301010438e880948961972</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Payment Wallet">97f7e1b6db301010438e880948961972</sys_scope>
+        <sys_update_name>sys_ui_macro_4107d0fbdb301010438e88094896191d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-25 06:03:59</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+	<tr border='3'> 
+    <td colspan="2">
+		<button onclick='macroFunction()'>MACRO BUTTON </button>
+    </td> 
+ </tr> 
+	
+	<script>
+		
+		function macroFunction()
+		{
+		   alert('MACRO BUTTON CLICKED');
+		}
+		
+	</script>
+	
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

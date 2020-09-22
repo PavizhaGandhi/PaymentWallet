@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>macro_footer</name>
+        <scoped_name>x_451559_payment_w_macro_footer</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-01 04:26:06</sys_created_on>
+        <sys_id>3bff47fadb011010438e880948961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>macro_footer</sys_name>
+        <sys_package display_value="Payment Wallet" source="x_451559_payment_w">97f7e1b6db301010438e880948961972</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Payment Wallet">97f7e1b6db301010438e880948961972</sys_scope>
+        <sys_update_name>sys_ui_macro_3bff47fadb011010438e880948961986</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-01 04:26:06</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+	<div style='width:100%; color: white; text-align: center; background-color: black;'>
+       Macro Footer 
+    </div>
+	
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

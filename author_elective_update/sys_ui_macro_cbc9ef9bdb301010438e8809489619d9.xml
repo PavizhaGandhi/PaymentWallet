@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="DELETE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>sample_macro</name>
+        <scoped_name>x_451559_payment_w_sample_macro</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-21 09:19:48</sys_created_on>
+        <sys_id>cbc9ef9bdb301010438e8809489619d9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>sample_macro</sys_name>
+        <sys_package display_value="Payment Wallet" source="x_451559_payment_w">97f7e1b6db301010438e880948961972</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Payment Wallet">97f7e1b6db301010438e880948961972</sys_scope>
+        <sys_update_name>sys_ui_macro_cbc9ef9bdb301010438e8809489619d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-21 11:37:05</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+<div style='width:100%; font-size: 2em; color: black; text-align: left; background-color: orange;'>
+Sample Macro
+	
+	<button> CLICK ME </button>
+</div>
+	
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Payment Wallet">97f7e1b6db301010438e880948961972</application>
+        <file_path/>
+        <instance_id>25e52d8cdbd353c4536ad5b0cf9619c9</instance_id>
+        <instance_name>dev63961</instance_name>
+        <name>sys_ui_macro_cbc9ef9bdb301010438e8809489619d9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_macro"&gt;&lt;sys_ui_macro action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;category&gt;general&lt;/category&gt;&lt;description/&gt;&lt;media_type/&gt;&lt;name&gt;sample_macro&lt;/name&gt;&lt;scoped_name&gt;x_451559_payment_w_sample_macro&lt;/scoped_name&gt;&lt;sys_class_name&gt;sys_ui_macro&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-21 09:19:48&lt;/sys_created_on&gt;&lt;sys_id&gt;cbc9ef9bdb301010438e8809489619d9&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;sample_macro&lt;/sys_name&gt;&lt;sys_package display_value="Payment Wallet" source="x_451559_payment_w"&gt;97f7e1b6db301010438e880948961972&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Payment Wallet"&gt;97f7e1b6db301010438e880948961972&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_macro_cbc9ef9bdb301010438e8809489619d9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-21 11:37:05&lt;/sys_updated_on&gt;&lt;xml&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+
+&lt;div style='width:100%; font-size: 2em; color: black; text-align: left; background-color: orange;'&gt;
+Sample Macro
+	
+	&lt;button&gt; CLICK ME &lt;/button&gt;
+&lt;/div&gt;
+	
+&lt;/j:jelly&gt;]]&gt;&lt;/xml&gt;&lt;/sys_ui_macro&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-147446269</payload_hash>
+        <record_name>sample_macro</record_name>
+        <reverted_from/>
+        <source>53f7adb6db301010438e880948961963</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-21 11:37:05</sys_created_on>
+        <sys_id>8a89006bdbb01010438e880948961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1723705c8020000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-21 11:37:05</sys_updated_on>
+        <type>Macro</type>
+        <update_guid>0689006b30b0101083afa15c7b7aa778</update_guid>
+        <update_guid_history>0689006b30b0101083afa15c7b7aa778:-147446269,c3e204e39cb0101076220aa8b031effd:-1074665964,d28ae3db2e301010a79da6bc6f97f371:-2030702018,3e1aef9bf7301010276460b3ff245579:285204799</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-22 07:14:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_macro">sys_ui_macro</sys_db_object>
+        <sys_id>06e5535a07fe406c80cddce8a13e07a9</sys_id>
+        <sys_metadata>cbc9ef9bdb301010438e8809489619d9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sample_macro</sys_name>
+        <sys_package display_value="Payment Wallet" source="x_451559_payment_w">97f7e1b6db301010438e880948961972</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Payment Wallet">97f7e1b6db301010438e880948961972</sys_scope>
+        <sys_scope_delete display_value="">059fa2be573941e68e90a8580f8cfdd9</sys_scope_delete>
+        <sys_update_name>sys_ui_macro_cbc9ef9bdb301010438e8809489619d9</sys_update_name>
+        <sys_update_version display_value="sys_ui_macro_cbc9ef9bdb301010438e8809489619d9">8a89006bdbb01010438e880948961978</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-22 07:14:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
